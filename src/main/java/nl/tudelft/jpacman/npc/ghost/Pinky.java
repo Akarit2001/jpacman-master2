@@ -37,7 +37,7 @@ import nl.tudelft.jpacman.sprite.Sprite;
  * Source: http://strategywiki.org/wiki/Pac-Man/Getting_Started
  * </p>
  *
- * @author Jeroen Roosen 
+ * @author Jeroen Roosen
  *
  */
 public class Pinky extends Ghost {
@@ -51,13 +51,13 @@ public class Pinky extends Ghost {
     /**
      * The base movement interval.
      */
-    private static final int MOVE_INTERVAL = 250;
+    private static final int MOVE_INTERVAL = 400;
 
     /**
      * Creates a new "Blinky", a.k.a. "Shadow".
      *
      * @param spriteMap
-     *            The sprites for this ghost.
+     *                  The sprites for this ghost.
      */
     // TODO Blinky should speed up when there are a few pellets left, but he
     // has no way to find out how many there are.
